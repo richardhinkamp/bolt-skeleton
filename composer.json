@@ -19,9 +19,11 @@
     "minimum-stability": "stable",
     "scripts": {
         "post-install-cmd": [
+            "BoltSkeleton\\Composer\\ScriptHandler::installConfig",
             "Bolt\\Composer\\ScriptHandler::installAssets"
         ],
         "post-update-cmd": [
+            "BoltSkeleton\\Composer\\ScriptHandler::installConfig",
             "Bolt\\Composer\\ScriptHandler::installAssets"
         ]
     },

@@ -14,7 +14,7 @@ class ScriptHandler
     public static function installConfig($event)
     {
         $root = __DIR__.'/../../../';
-        $boltConfigDir = $root.'vendor/bolt/bolt/config';
+        $boltConfigDir = $root.'vendor/bolt/bolt/app/config';
         $targetDir = $root.'config/';
 
         $filesystem = new Filesystem();

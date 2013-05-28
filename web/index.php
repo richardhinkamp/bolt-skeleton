@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of the Bolt standard package.
+ * This file is part of the Bolt skeleton package.
  *
  * (c) Richard Hinkamp <richard@hinkamp.nl>
  *

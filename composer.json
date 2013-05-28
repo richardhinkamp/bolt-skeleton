@@ -2,6 +2,7 @@
     "name": "richardhinkamp/bolt-standard",
     "description": "Standard edition of Bolt install with Bolt as dependency",
     "license": "MIT",
+    "type": "project",
     "autoload": {
         "psr-0": { "": "src/" }
     },

@@ -16,6 +16,9 @@
     "require-dev": {
     },
     "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist"
+    },
     "scripts": {
         "post-install-cmd": [
             "BoltSkeleton\\Composer\\ScriptHandler::installConfig",

@@ -7,12 +7,11 @@
         "psr-0": { "": "src/" }
     },
     "require": {
-        "htmlawed/htmlawed": "dev-master",
+        "erusev/parsedown": "dev-master",
+        "garetjax/phpbrowscap": "dev-master",
         "hautelook/phpass": "dev-master",
-        "garetjax/phpbrowscap": "*@dev",
-        "doctrine/dbal": "2.4.*@dev",
-        "doctrine/common": "2.4.*@dev",
-        "bolt/bolt": "dev-master"
+        "ircmaxell/random-lib": "1.0.*@dev",
+        "bolt/bolt": "~1.5"
     },
     "require-dev": {
     },

@@ -9,5 +9,6 @@
  */
 
 //define('OPTIPNG_ENABLED', true);
-define('FILE_CACHE_DIRECTORY', '../vendor/bolt/bolt/app/cache/thumbs/');
+define('FILE_CACHE_DIRECTORY', '../cache/thumbs/');
+require_once( '../vendor/bolt/bolt/app/bootstrap.php' );
 require_once( 'bolt-public/classes/timthumb.php' );

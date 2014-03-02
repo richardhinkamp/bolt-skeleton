@@ -3,3 +3,8 @@ web/bolt-public/
 web/files/*
 config/config_local.yml
 cache/*
+.idea/
+.buildpath
+.project
+.settings/
+.sass-cache/

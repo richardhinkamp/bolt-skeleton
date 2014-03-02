@@ -11,7 +11,6 @@ DirectoryIndex index.php index.html index.htm
 
   # Some servers require the RewriteBase to be set. If so, set to the correct folder.
   # RewriteBase /
-  RewriteRule ^thumbs/(.*)?$ ./thumb.php [L]
 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d

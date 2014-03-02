@@ -8,12 +8,14 @@
  * file that was distributed with this source code.
  */
 
-require_once( '../vendor/bolt/bolt/app/bootstrap.php' );
+require_once( '../src/bootstrap.php' );
 
-if ($app['debug']) {
-    $app->run();
+if (preg_match("~^/thumbs/(.*)$~", $_SERVER['REQUEST_URI'])) {
+    // If it's not a prebuilt file, but it is a thumb that needs processing
+    //define('OPTIPNG_ENABLED', true);
+    define('FILE_CACHE_DIRECTORY', __DIR__ . '/../cache/thumbs/');
+    require __DIR__ . '/../vendor/bolt/bolt/app/classes/timthumb.php';
 } else {
-    /** @var $cache \Silex\HttpCache */
-    $cache = $app['http_cache'];
-    $cache->run();
+    // Here we go!
+    $app->run();
 }

@@ -13,7 +13,7 @@ http://getcomposer.org/ or just run the following command:
 
     curl -s http://getcomposer.org/installer | php
 
-Then, use the `create-project` command to generate a new Symfony application:
+Then, use the `create-project` command to generate a new Bolt application:
 
     php composer.phar create-project richardhinkamp/bolt-skeleton path/to/install
 
